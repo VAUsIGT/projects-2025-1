@@ -1,0 +1,29 @@
+<Window x:Name="Don_win" x:Class="lab0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab0"
+        mc:Ignorable="d"
+        Title="Ус Владимир Лаб2" Height="400" Width="400" Background="#FFF5EFEF" MouseLeftButtonDown="LeftMouse" MouseRightButtonDown="RightMouse">
+    <Grid x:Name="Gun_grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="64*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Counter" Content="Счёт: 0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="76" Width="109" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.649"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.618"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="LabelSupport1" Grid.Column="1" Content="Label" HorizontalAlignment="Left" Margin="114,0,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelSupport2" Grid.Column="1" Content="Label" HorizontalAlignment="Left" Margin="114,78,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
