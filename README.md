@@ -8,7 +8,9 @@ University works (sem 4)
 Алгоритмы и структуры данных (C++, Python)
 ## progr
 Программирование (C#, C++)
-## tayat
-Теория автоматов и языковых трансляторов (Python)
+## DiMath
+Дискретная математика (Python)
 ## python
 Python
+## ABC
+Архитектура вычеслительных систем (Python)
